@@ -8,7 +8,7 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   buffer = [];
   row_index = 0
-  while row_index <src.count do
+  while row_index < src.count do
     element_index = 0
     buffer.push("I Love #{src[row_index][0]} and #{src[row_index][1]} on my pizza")
     row_index+=1
